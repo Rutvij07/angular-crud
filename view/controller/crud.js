@@ -2,7 +2,8 @@ var app = angular.module('myApp',[]);
 app.controller('myCtrl',function($scope){
 
 $scope.users=[
-  {firstname:'Rutvij',lastname:'Doshi',email:'rutvijdoshi07@gmail.com'}
+  {firstname:'Rutvij',lastname:'Doshi',email:'rutvijdoshi07@gmail.com'},
+  {firstname:'Meet',lastname:'Dave',email:'meetdave@gmail.com'}
 ];
 
 $scope.saveUser = function(){
